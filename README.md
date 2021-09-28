@@ -10,6 +10,10 @@ These models have been used for size. Since the other models that were trained a
 
 https://1drv.ms/u/s!Alw10moaW3YwgYMzjWTpEXr5aQfhFA?e=CCSEYi
 
+The training code and other details about the models can be found in this repository
+
+https://github.com/kavyasureshkumar/FlowerClassification
+
 ## App
 The app can be found in the link
 
