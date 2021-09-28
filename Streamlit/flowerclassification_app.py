@@ -9,7 +9,7 @@ from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.preprocessing.image import img_to_array
 
 
-a_file = open("D://TMLC_images//labels.pkl", "rb")
+a_file = open("labels.pkl", "rb")
 output = pickle.load(a_file)
 
 
