@@ -8,7 +8,7 @@ from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.preprocessing.image import img_to_array
 
 
-a_file = open("streamlit/labels.pkl", "rb")
+a_file = open("Streamlit/labels.pkl", "rb")
 output = pickle.load(a_file)
 
 
@@ -43,9 +43,9 @@ else:
     option = st.selectbox("Choose a model ",("EffecientNet","MobileNet"))
     with st.spinner("Getting the model ready..."):
         if option == "EffecientNet":
-            model = tf.keras.models.load_model('streamlit/model/EffecientNet.h5')
+            model = tf.keras.models.load_model('Streamlit/model/EffecientNet.h5')
         else:
-            model = tf.keras.models.load_model('streamlit/model/mobile_net.h5')
+            model = tf.keras.models.load_model('Streamlit/model/mobile_net.h5')
     predict = st.button("Predict")
     if predict:
         with st.spinner('Predicting ...'):
