@@ -6,7 +6,7 @@ This project uses a dataset which has 12753 training images and 3712 validation 
 1. EffecientNetB0
 2. MobileNet
 
-These models have been used for size. Since the other models that were trained and the data are too large to be uploaded in github, they can be found in the following link: 
+These models have been used for size. Since the data and the other models that were trained are too large to be uploaded in github, they can be found in the following link: 
 
 https://1drv.ms/u/s!Alw10moaW3YwgYMzjWTpEXr5aQfhFA?e=CCSEYi
 
