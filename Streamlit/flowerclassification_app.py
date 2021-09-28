@@ -1,5 +1,4 @@
 import streamlit as st
-import cv2
 import heapq
 import pickle
 import numpy as np
