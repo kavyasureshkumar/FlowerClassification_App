@@ -4,7 +4,6 @@ import pickle
 import numpy as np
 import tensorflow as tf
 from PIL import Image,ImageOps
-from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.preprocessing.image import img_to_array
 
 
